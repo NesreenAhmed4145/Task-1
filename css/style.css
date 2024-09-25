@@ -1319,16 +1319,11 @@ body {
         position: absolute;
         margin-right: 1000px;
         border-radius: 20px;
-        left: 0;
+        left: 10%;
     }
 
     .call_us_div {
-        display: block;
-
-        width: 250px;
-        margin: auto;
-        margin-left: 200px;
-        position: absolute;
+        display: none;
     }
 
     .call_us_div .call {
@@ -1795,6 +1790,7 @@ body {
         width: 500px;
         height: 305px;
         margin: auto;
+        margin-left: 10%;
         line-height: 50px;
         position: relative;
     }
@@ -2011,16 +2007,7 @@ body {
     }
 
     .fourth_section_head p {
-        width: 936px;
-        height: 48px;
-
-        margin-left: 380px;
-        margin-top: 20px;
-        font-family: Inter;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 24px;
-        color: #475467;
+   display: none;
     }
 
     .fifth_section {
@@ -2044,7 +2031,7 @@ body {
         /* margin-top: 100px; */
         margin: auto;
         flex-direction: column;
-        margin-left: 100px;
+        margin-left: 10%;
     }
 
     .card_sixth_section {
@@ -2191,13 +2178,12 @@ body {
     .footer_upper_part ul {
         display: flex;
         list-style: none;
-        width: 20%;
+        width: 80%;
         position: absolute;
-        margin-top: 10px;
-        margin-left: 400px;
+        margin-top: 15%;
+        margin-left: 5%;
         opacity: .7;
-        flex-direction: column;
-        gap: 2px;
+        gap: 20px;
     }
 
     .footer_upper_part ul li a {
@@ -2219,57 +2205,9 @@ body {
     }
 
     .Subscribe {
-        width: 418px;
-        height: 82px;
-        position: absolute;
-        padding: 0px 1px 0px 1px;
-        margin: auto;
-        margin-left: auto;
-        margin-top: 20px;
+        display: none;
     }
 
-    .Subscribe button {
-        width: 150px;
-        height: 48px;
-        padding: 12px 34px 12px 34px;
-        gap: 10px;
-        border-radius: 38px;
-        opacity: 0px;
-        background-color: #FFBB1C;
-        border: 1px solid #B3BDC7;
-
-        margin-left: -50px;
-    }
-
-    .Subscribe input {
-
-        width: 230px;
-        height: 48px;
-        padding: 0px 0px 0px 20px;
-        gap: 0px;
-        border-radius: 38px;
-        border: 1px 0px 0px 0px;
-        opacity: 0px;
-        border: 1px solid #B3BDC7;
-        background-color: #B3BDC7;
-        margin-top: 10px;
-
-    }
-
-    .Subscribe p {
-        width: 238px;
-        height: 24px;
-        gap: 0px;
-        opacity: 0px;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.30000001192092896px;
-        text-align: left;
-        color: white;
-        margin-left: 10px;
-        opacity: .7;
-    }
 
     .horizantel_line {
         width: 100%;
@@ -2283,7 +2221,7 @@ body {
 
     .footer_lower_part {
         display: flex;
-        margin: auto;
+        margin-left:-2%;
         justify-content: space-between;
         align-items: center;
         width: 100%;
@@ -2294,12 +2232,16 @@ body {
     }
 
     .footer_lower_part>p {
-        word-spacing: 10px;
+        word-spacing: 0px;
         width: 100%;
-        line-height: 50px;
+        line-height: 45px;
+        margin-top: -10px;
+        width: 100%;
     }
 
-
+.copyRight{
+    margin-top: 500px;
+}
 
 
 }
