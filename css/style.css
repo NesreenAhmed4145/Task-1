@@ -1787,10 +1787,10 @@ body {
 
     .frist_section_content {
         /* background-color: black; */
-        width: 500px;
+        width: 100%;
         height: 305px;
         margin: auto;
-        margin-left: 10%;
+        margin-left: 5%;
         line-height: 50px;
         position: relative;
     }
@@ -1814,6 +1814,7 @@ body {
         width: 480px;
         color: white;
         margin-top: 20px;
+        width: 75%;
 
     }
 
